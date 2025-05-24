@@ -23,6 +23,11 @@ const student2 : Student={
     address:"Sirajgonj"
 }
 
+// String type alias
+type userName= string;
+
+let name : userName = "nurnoby"
+
 
 
 
