@@ -28,6 +28,13 @@ type userName= string;
 
 let name : userName = "nurnoby"
 
+// function type alias
+type Add = (num1:number,num2:number)=> number; 
+
+const add:Add =(num1, num2)=>{
+    return num1 + num2
+}
+
 
 
 
